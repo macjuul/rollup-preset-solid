@@ -1,7 +1,8 @@
 {
-  "name": "rollup-preset-solid",
-  "version": "2.0.1",
+  "name": "@serenity-ui/rollup-preset-solid",
+  "version": "2.0.1-fix.1",
   "type": "module",
+  "private": false,
   "description": "Rollup preset for solid libraries",
   "files": [
     "dist"

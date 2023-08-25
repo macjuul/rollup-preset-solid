@@ -27,7 +27,7 @@ function processOptions(options: Options, asSubPackage = true): RollupOptions {
     babelOptions,
     solidOptions,
     mappingName,
-	tsCompilerOptions,
+    tsCompilerOptions,
     ...rollupOptions
   } = options;
   const currentDir = process.cwd();
@@ -116,7 +116,7 @@ function processOptions(options: Options, asSubPackage = true): RollupOptions {
             declarationDir: asSubPackage ? `dist/${name}` : `dist/types`,
             declaration: true,
             allowJs: true,
-			...tsCompilerOptions
+            ...tsCompilerOptions
           });
 
           program.emit();
